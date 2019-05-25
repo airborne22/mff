@@ -50,6 +50,17 @@ The above will install, among other things, Spring framework libraries, Postgres
   \q
   ```
 
+## Add Application Secrets Properties
+Create a properties file with the following path: 
+`src/main/resources/application-secrets.properties`
+
+with the following properties:
+```
+jda.discord.secret=insert_secret_here
+jda.discord.client_id=insert_client_id_here
+jda.discord.token=insert_token_here
+```
+
 ## Run the App
 Now the app should come up:
 ```
